@@ -1,2 +1,18 @@
 @import "./utils/variables";
-@import "./components/header";
+@import "./base/base";
+
+@import "./components/nav";
+@import "./components/contacts";
+@import "./components/pre-title";
+@import "./components/primary-button";
+@import "./components/social";
+@import "./components/subscription";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/directions";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+

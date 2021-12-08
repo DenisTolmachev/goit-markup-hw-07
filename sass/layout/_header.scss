@@ -1,0 +1,30 @@
+.header {
+  border-bottom: 1px solid $header-border-bottom;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+/*Логотип*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+
+.logo__web-color {
+  color: $main-brand-color;
+}
+
+.logo__studio-color {
+  color: $logo-darck-color;
+}
+
+.logo__footer-color {
+  color: $secondary-page-color;
+}
