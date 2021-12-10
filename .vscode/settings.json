@@ -5,17 +5,20 @@
 		{
 			"format": "expanded",
 			"extensionName": ".css",
-			"savePath": "css",
+			"savePath": "/css",
 		},
 		{
 			"format": "compressed",
-			"autoprefixer": "last 5 version",
 			"extensionName": ".min.css",
-			"savePath": "css",
+			"savePath": "/css",
 		},
 	],
 	"liveSassCompile.settings.excludeList": [
 		"**/node_modules/**",
 		".vscode/**"
+	],
+	"liveSassCompile.settings.autoprefix": [
+		"> 1%",
+		"last 2 versions"
 	],
 }
