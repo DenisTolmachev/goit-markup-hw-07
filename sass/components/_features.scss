@@ -1,17 +1,17 @@
 .features {
-  padding-bottom: 0;
+  padding-bottom: 47px;
 }
 
-.features__list {
+.features-list {
   display: flex;
 }
 
-.features__item {
+.features-list__item {
   width: 270px;
   display: inline-block;
 }
 
-.features__icon-field {
+.features-list__icon-field {
   display: flex;
   padding: 25px 0;
   background-color: $secondary-background-color;
@@ -20,16 +20,16 @@
   border-radius: 4px;
 }
 
-.features__icon {
+.features-list__icon {
   width: 70px;
   height: 70px;
 }
 
-.features__item:not(:last-child) {
+.features-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features__item-title {
+.features-list__item-title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -38,7 +38,7 @@
   text-transform: uppercase;
 }
 
-.features__item-text {
+.features-list__item-text {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;

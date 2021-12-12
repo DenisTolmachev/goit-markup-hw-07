@@ -1,0 +1,29 @@
+.textarea-field {
+  margin-bottom: 20px;
+}
+
+.textarea-field__text-input {
+  width: 100%;
+  padding: 16px 12px;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+  &:focus {
+    border: 1px solid $main-brand-color;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}

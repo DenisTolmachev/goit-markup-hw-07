@@ -1,13 +1,13 @@
-.contacts__list {
+.contacts-list {
   display: flex;
   margin-left: auto;
 }
 
-.contacts__item:not(:last-child) {
+.contacts-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts__link {
+.contacts-list__link {
   display: inline-flex;
   align-items: center;
   font-weight: 500;
@@ -24,7 +24,14 @@
 	}
 }
 
-.contacts__icon {
+.contacts-list__link--footer {
+  display: block;
+  letter-spacing: 0.03em;
+  color: $footer-link-color;
+  line-height: 1.7;
+}
+
+.contacts-list__icon {
   fill: currentColor;
   margin-right: 10px;
 }

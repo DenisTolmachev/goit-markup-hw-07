@@ -1,9 +1,8 @@
-.social__list {
+.social-list {
   display: flex;
-  padding: 0 32px;
 }
 
-.social__item {
+.social-list__item {
   width: 44px;
   height: 44px;
   &:not(:last-child) {
@@ -11,7 +10,7 @@
   }
 }
 
-.social__link {
+.social-list__link {
   display: flex;
   width: 100%;
   height: 100%;
@@ -30,7 +29,11 @@
   }
 }
 
-.social__icon {
+.social-list__link--background {
+  background-color: $footer-social-color;
+}
+
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;

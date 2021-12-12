@@ -1,23 +1,35 @@
 @import "./utils/variables";
-@import "./base/base";
 
+@import "./components/base";
+@import "./components/buttons";
+@import "./components/main-title";
+@import "./components/social";
+@import "./components/filter";
+
+@import "./components/header";
+@import "./components/logo";
 @import "./components/nav";
 @import "./components/contacts";
-@import "./components/pre-title";
-@import "./components/primary-button";
-@import "./components/social";
+@import "./components/hero";
+@import "./components/features";
+@import "./components/directions";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/address";
 @import "./components/subscription";
-@import "./components/filter";
+@import "./components/projects";
+
 @import "./components/backdrop";
 @import "./components/modal";
-@import "./components/close-btn";
+@import "./components/from-label";
+@import "./components/form-field";
+@import "./components/textarea-field";
+@import "./components/checkbox-field";
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/features";
-@import "./layout/directions";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/projects";
+
+
+
+
+
 
