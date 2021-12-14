@@ -1,5 +1,5 @@
 .nav {
-	margin-left: 93px;
+  margin-left: 93px;
 }
 
 .nav__list {
@@ -21,26 +21,23 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	&:hover,
-	&:focus {
-	color: $main-brand-color;
-	}
+  &:hover,
+  &:focus {
+    color: $main-brand-color;
+  }
 }
-
-
 
 .current {
   position: relative;
   color: $main-brand-color;
-	&::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 4px;
-	left: 0;
-	bottom: -1px;
-	background-color: $main-brand-color;
-	border-radius: 2px;
-	}
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -1px;
+    background-color: $main-brand-color;
+    border-radius: 2px;
+  }
 }
-

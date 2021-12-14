@@ -1,8 +1,8 @@
 .header {
-  border-bottom: 1px solid $header-border-bottom;
+  border-bottom: 1px solid $secondary-border-color;
 }
 
-.header-content {
+.header__content {
   display: flex;
   align-items: center;
 }

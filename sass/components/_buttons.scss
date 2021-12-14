@@ -1,7 +1,8 @@
 .primary-button {
   display: block;
   margin: 0 auto;
-  padding: 10px 36px;
+  min-width: 200px;
+  padding: 10px 0;
   background-color: $main-brand-color;
   box-shadow: 0px 4px 4px rgba(126, 50, 50, 0.15);
   border-radius: 4px;
@@ -13,21 +14,16 @@
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	&:hover,
-	&:focus {
-	background-color: $primary-button-hover;
-	}
+  &:hover,
+  &:focus {
+    background-color: $primary-button-hover;
+  }
 }
 
 .primary-button--flex {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 28px;
-}
-
-.primary-button--modal {
-  padding: 10px 56px;
 }
 
 .secondary-button {
@@ -48,8 +44,7 @@
   &:focus {
     background: $main-brand-color;
     color: $secondary-page-color;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
 

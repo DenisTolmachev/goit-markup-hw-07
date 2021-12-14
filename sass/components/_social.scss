@@ -30,11 +30,10 @@
 }
 
 .social-list__link--background {
-  background-color: $footer-social-color;
+  color: $secondary-page-color;
+  background-color: $social-background-color;
 }
 
 .social-list__icon {
-  width: 20px;
-  height: 20px;
   fill: currentColor;
 }

@@ -12,15 +12,15 @@
   color: $third-text-color;
 }
 
-.checkbox-field__checkbox {
+.checkbox-field__input {
   position: absolute;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  &:focus + .check-box {
+  &:focus + .checkbox-field__icon {
     border: 2px solid $main-brand-color;
   }
-  &:checked:focus + .check-box {
+  &:checked:focus + .checkbox-field__icon {
     background-color: $main-brand-color;
     background-image: url(../images/checkbox-on.svg);
     background-size: contain;
@@ -29,7 +29,7 @@
   }
 }
 
-.check-box {
+.checkbox-field__icon {
   display: block;
   height: 16px;
   width: 16px;
@@ -40,4 +40,11 @@
   transition-property: border, background-color, background-image;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.agreement {
+  margin-left: 5px;
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  color: $main-brand-color;
 }

@@ -24,24 +24,14 @@
 	}
 }
 
-.contacts-list__link--footer {
+.contacts-list__link--secondary {
   display: block;
   letter-spacing: 0.03em;
-  color: $footer-link-color;
+  color: $secondary-link-color;
   line-height: 1.7;
 }
 
 .contacts-list__icon {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.envelope-icon {
-  width: 16px;
-  height: 12px;
-}
-
-.smartphone-icon {
-  width: 10px;
-  height: 16px;
 }

@@ -55,8 +55,23 @@ img {
   padding: 94px 0;
 }
 
-.team {
-  background-color: $secondary-background-color;
+.main-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: $third-text-color;
 }
 
 
