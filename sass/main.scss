@@ -1,7 +1,10 @@
 @import "./utils/variables";
 
+@import "./utils/mixins";
+
 @import "./components/base";
 @import "./components/buttons";
+@import "./utils/placeholders";
 @import "./components/social";
 @import "./components/filter";
 

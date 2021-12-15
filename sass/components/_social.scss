@@ -3,25 +3,20 @@
 }
 
 .social-list__item {
-  width: 44px;
-  height: 44px;
+  @include size(44px, 44px);
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
 
 .social-list__link {
-  display: flex;
-  width: 100%;
-  height: 100%;
+  @extend %flex-center;
+  @include size(100%, 100%);
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
   color: $secondary-brand-color;
   background-color: $secondary-page-color;
   transition-property: color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include main-animation();
   &:hover,
   &:focus {
     background-color: $main-brand-color;

@@ -7,17 +7,13 @@
 }
 
 .clients-list__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 92px;
+  @extend %flex-center;
+  @include size(170px, 92px);
   border: 1px solid $secondary-brand-color;
   border-radius: 4px;
   color: $secondary-brand-color;
   transition-property: color, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ @include main-animation();
   &:hover,
   &:focus {
     border: 1px solid $main-brand-color;

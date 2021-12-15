@@ -12,8 +12,7 @@
   letter-spacing: 0.06em;
   color: $secondary-page-color;
   transition-property: color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include main-animation();
   &:hover,
   &:focus {
     background-color: $primary-button-hover;
@@ -21,9 +20,7 @@
 }
 
 .primary-button--flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
 }
 
 .secondary-button {
@@ -38,8 +35,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   transition-property: color, box-shadow, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include main-animation();
   &:hover,
   &:focus {
     background: $main-brand-color;
@@ -50,8 +46,7 @@
 
 .close-button {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  @include size(30px, 30px);
   right: 8px;
   top: 8px;
   background: $secondary-page-color;
@@ -60,8 +55,7 @@
   cursor: pointer;
   color: $main-brand-color;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include main-animation();
   &:hover {
     fill: currentColor;
   }

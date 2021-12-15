@@ -118,18 +118,6 @@ img {
   background-color: #2196f3cc;
 }
 
-.primary-button--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .secondary-button {
   padding: 6px 22px;
   background-color: #f5f4fa;
@@ -187,6 +175,18 @@ img {
   right: 5px;
 }
 
+.checkbox-field__text, .clients-list__link, .social-list__link, .primary-button--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,18 +202,9 @@ img {
 }
 
 .social-list__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: #afb1b8;
   background-color: #ffffff;
   -webkit-transition-property: color, background-color;
@@ -539,15 +530,6 @@ img {
 }
 
 .clients-list__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -764,8 +746,8 @@ img {
   opacity: 1;
   -webkit-transition-property: opacity visibility;
   transition-property: opacity visibility;
-  -webkit-transition-duration: 400ms;
-          transition-duration: 400ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -794,8 +776,8 @@ img {
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 400ms;
-          transition-duration: 400ms;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px;
@@ -925,15 +907,6 @@ img {
 }
 
 .checkbox-field__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -959,8 +932,8 @@ img {
 
 .checkbox-field__icon {
   display: block;
-  height: 16px;
   width: 16px;
+  height: 16px;
   margin-right: 8px;
   border: 2px solid #212121;
   border-radius: 2px;

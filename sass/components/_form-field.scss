@@ -15,8 +15,7 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include main-animation();
   &:focus-within + .form-field__input-icon {
     fill: $main-brand-color;
   }
@@ -31,12 +30,10 @@
 .form-field__input-icon {
   display: inline-block;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  @include size(18px, 18px);
   left: 12px;
   bottom: 12px;
   fill: $main-text-color;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include main-animation();
 }

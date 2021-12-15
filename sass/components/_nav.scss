@@ -19,8 +19,7 @@
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include main-animation();
   &:hover,
   &:focus {
     color: $main-brand-color;
@@ -33,8 +32,7 @@
   &::after {
     content: '';
     position: absolute;
-    width: 100%;
-    height: 4px;
+    @include size(100%, 4px);
     left: 0;
     bottom: -1px;
     background-color: $main-brand-color;
