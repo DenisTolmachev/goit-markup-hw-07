@@ -19,15 +19,15 @@
     <!--Хедер-->
     <header class="header">
       <div class="container header__content">
-        <a class="logo link" href="./index.html">
+        <a class="logo logo--primary-color link" href="./index.html">
           <span class="logo__brand-color">Web</span>
-          <span class="logo__primary-color">Studio</span>
+          Studio
         </a>
         <!--Навигация-->
         <nav class="nav">
           <ul class="nav__list list">
             <li class="nav__item">
-              <a class="nav__link link current" href="./index.html">Студия</a>
+              <a class="nav__link link nav__link--current" href="./index.html">Студия</a>
             </li>
             <li class="nav__item">
               <a class="nav__link link" href="./portfolio.html">Портфолио</a>
@@ -361,9 +361,9 @@
     <footer class="footer" id="footer">
       <div class="container footer__container">
         <div class="footer__address">
-          <a class="logo link" href="./index.html">
+          <a class="logo logo--secondary-color link" href="./index.html">
             <span class="logo__brand-color">Web</span>
-            <span class="logo__secondary-color">Studio</span>
+            Studio
           </a>
           <address class="address">
             <ul class="address__list list">
@@ -427,7 +427,7 @@
             <input type="email" name="footer-email" class="subscribe-form__input" placeholder="E-mail" required />
             <button type="submit" class="primary-button primary-button--flex">
               Подписаться
-              <svg width="24" height="24" class="send-icon">
+              <svg width="24" height="24" class="primary-button__icon">
                 <use href="./images/icons.svg#send-icon"></use>
               </svg>
             </button>
@@ -440,35 +440,35 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-button" data-modal-close type="button">
-          <svg class="close-icon">
+          <svg class="close-button__icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
         <form action="#" class="form">
-          <div class="form-field">
+          <div class="input-field">
             <label for="user-name" class="label">Имя</label>
-            <div class="form-field__input-group-absolute">
-              <input type="text" name="" class="form-field__input" id="user-name" autofocus required />
-              <svg class="form-field__input-icon">
+            <div class="input-field__group-absolute">
+              <input type="text" name="" class="input-field__input" id="user-name" autofocus required />
+              <svg class="input-field__icon">
                 <use href="./images/icons.svg#name-icon"></use>
               </svg>
             </div>
           </div>
-          <div class="form-field">
+          <div class="input-field">
             <label for="user-tel" class="label">Телефон</label>
-            <div class="form-field__input-group-absolute">
-              <input type="tel" name="user-tel" class="form-field__input" id="user-tel" required />
-              <svg class="form-field__input-icon">
+            <div class="input-field__group-absolute">
+              <input type="tel" name="user-tel" class="input-field__input" id="user-tel" required />
+              <svg class="input-field__icon">
                 <use href="./images/icons.svg#phone-icon"></use>
               </svg>
             </div>
           </div>
-          <div class="form-field">
+          <div class="input-field">
             <label for="user-email" class="label">Почта</label>
-            <div class="form-field__input-group-absolute">
-              <input type="email" name="user-email" class="form-field__input" id="user-email" required />
-              <svg class="form-field__input-icon">
+            <div class="input-field__group-absolute">
+              <input type="email" name="user-email" class="input-field__input" id="user-email" required />
+              <svg class="input-field__icon">
                 <use href="./images/icons.svg#email-icon"></use>
               </svg>
             </div>
@@ -477,7 +477,7 @@
             <label for="user-comment" class="label">Комментарий</label>
             <textarea
               name="user-comment"
-              class="textarea-field__text-input"
+              class="textarea-field__input"
               id="user-comment"
               rows="5"
               placeholder="Введите текст"
@@ -491,7 +491,7 @@
               <a class="checkbox-field__agreement" href=""> Условия договора</a>
             </label>
           </div>
-          <button class="primary-button primary-button--modal" type="submit">Отправить</button>
+          <button class="primary-button" type="submit">Отправить</button>
         </form>
       </div>
     </div>

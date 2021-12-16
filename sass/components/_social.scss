@@ -26,7 +26,7 @@
 
 .social-list__link--background {
   color: $secondary-page-color;
-  background-color: $social-background-color;
+  background-color: rgba($secondary-page-color, 0.1);
 }
 
 .social-list__icon {

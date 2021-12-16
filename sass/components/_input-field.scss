@@ -1,13 +1,12 @@
-.form-field {
+.input-field {
   margin-bottom: 10px;
 }
 
-.form-field__input-group-absolute {
+.input-field__group-absolute {
   position: relative;
-  margin-top: 4px;
 }
 
-.form-field__input {
+.input-field__input {
   width: 100%;
   padding: 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -16,7 +15,7 @@
   border-radius: 4px;
   transition-property: border;
   @include main-animation();
-  &:focus-within + .form-field__input-icon {
+  &:focus-within + .input-field__icon {
     fill: $main-brand-color;
   }
   &:focus {
@@ -27,7 +26,7 @@
   }
 }
 
-.form-field__input-icon {
+.input-field__icon {
   display: inline-block;
   position: absolute;
   @include size(18px, 18px);

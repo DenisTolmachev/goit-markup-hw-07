@@ -23,6 +23,11 @@
   @extend %flex-center;
 }
 
+.primary-button__icon {
+  margin-left: 10px;
+  fill: $secondary-page-color;
+}
+
 .secondary-button {
   padding: 6px 22px;
   background-color: $secondary-background-color;
@@ -61,7 +66,7 @@
   }
 }
 
-.close-icon {
+.close-button__icon {
   position: absolute;
   width: 18px;
   height: 18px;
